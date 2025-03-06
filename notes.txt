@@ -1,0 +1,23 @@
+notes
+react-developer-resume
+
+https://www.cake.me/resources/react-developer-resume?locale=ko
+
+
+https://mail.google.com/mail/u/0/?tab=cm&account_id=rpal120@wgu.edu#inbox
+https://www.youtube.com/watch?v=5FqMwEJ1j1I
+https://www.youtube.com/watch?v=Z6Dj-Ma_ENs
+https://react.dev/learn/build-a-react-app-from-scratch
+
+
+react with vite 
+
+structure
+The optimal font size for paragraph content is
+between 10-12 pt, and some highly recommended 
+fonts include Helvetica, Calibri, Cambria, Times New Roman, Arial, 
+etc.  
+
+
+https://github.com/radzionc/resume
+https://vite.dev/guide/
