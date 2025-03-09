@@ -9,15 +9,15 @@ const Navbar : React.FC = () => {
                 <img src="/linkedin.png" alt="linkedIn" width={48} height={48} />
             </div>
             <div className={styles.links}>
-                <link href="/" className={styles.link}>
+                <a href="/" className={styles.link}>
                 Resume
-                </link>
-                <link href="/" className={styles.link}>
+                </a>
+                <a href="/" className={styles.link}>
                 About
-                </link>
-                <link href="/" className={styles.link}>
+                </a>
+                <a href="/" className={styles.link}>
                 Contact
-                </link>
+                </a>
             </div>
         </div>
     )

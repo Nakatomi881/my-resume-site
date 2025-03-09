@@ -1,19 +1,12 @@
-
 import './App.css'
-
+import Navbar from './components/navbar/Navbar'
+import About from './pages/resume/about/About'
 
 function App() {
-  
-
   return (
     <>
-      <div>
-       
-       
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <About />
     </>
   )
 }
