@@ -1,39 +1,57 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 20px;
     gap: 20px;
     max-width: 800px;
     margin: auto;
-    text-align: center;
+   
     
 }
+
 .heading header {
+       
     font-size: 32px;
     font-weight: bold;
+    text-align: left;
 }
+
 p {
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    text-align: left;
 }
+
 .info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 1px;
     font-size: 0.9rem;
     
 }
 
+.summary {
+    text-align: left;
+}
+
+
 .summary h1, .skills h1 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .list ul {
     list-style: disc;
     padding-left: 20px;
+    text-align: left;
+
+}
+
+.experience {
+ text-align: left;   
+  
 
 }
