@@ -33,7 +33,7 @@ const Resume: React.FC = () => {
           </div>
           <div className={styles.experience}>
             <h1>Experience</h1>
-            <h2>Quality Engineer - Progressive Leasing, Draper, Utah</h2>
+            <h2>Quality Engineer - <span>Progressive Leasing, Draper, Utah</span></h2>
             <p>September 2021 - March 2024</p>
             <ul>
               <li>Developed, maintained, and refactor automated tests using C#, Playwright with Typescript and Java, increasing test coverage by 20% and improving reliability. Proficient with the following CI/CD pipelines: Jenkins, CircleCI, and Octopus.</li>
@@ -45,7 +45,7 @@ const Resume: React.FC = () => {
               <li>Communicated effectively with stakeholders to provide regular updates and insights on testing progress and outcomes.</li>
               <li>Problem-solved complex issues by identifying root causes and implementing effective solutions to improve product quality.</li>
             </ul>
-            <h2>QA Engineer (SDET) - Softwise, Lehi, Utah</h2>
+            <h2>QA Engineer (SDET) - <span>Softwise, Lehi, Utah</span></h2>
             <p>January 2018 - September 2021</p>
             <ul>
               <li>Authored and maintained a suite of automated tests in C# using the selenium framework, achieving an 80% pass rate.</li>
@@ -56,7 +56,7 @@ const Resume: React.FC = () => {
               <li>Communicated effectively with stakeholders to provide regular updates and insights on testing progress and outcomes.</li>
               <li>Problem-solved complex issues by identifying root causes and implementing effective solutions to improve product quality.</li>
             </ul>
-            <h2>Online Support Supervisor - Check City, Provo, Utah</h2>
+            <h2>Online Support Supervisor - <span>Check City, Provo, Utah</span></h2>
             <p>January 2014 - January 2018</p>
             <ul>
             <li>Provided technical support by troubleshooting website issues, identifying bugs, and assisting customers.</li>

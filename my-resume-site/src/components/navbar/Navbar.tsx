@@ -13,10 +13,13 @@ const Navbar : React.FC = () => {
                 Resume
                 </a>
                 <a href="/" className={styles.link}>
-                About
+                Projects
                 </a>
                 <a href="/" className={styles.link}>
                 Contact
+                </a>
+                <a href="/" className={styles.link}>
+                About
                 </a>
             </div>
         </div>
