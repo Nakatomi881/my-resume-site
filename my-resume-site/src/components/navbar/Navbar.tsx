@@ -6,7 +6,9 @@ const Navbar : React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.social}>
+                <a href="https://www.linkedin.com/in/ryan-palmer-softwareengineerstudent/">
                 <img src="/linkedin.png" alt="linkedIn" width={48} height={48} />
+                </a>
             </div>
             <div className={styles.links}>
                 <a href="/" className={styles.link}>
