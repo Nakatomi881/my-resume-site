@@ -3,11 +3,13 @@
     align-items: center;
     justify-content: space-between;
     height: 100px;
+   
 }
 
 .social {
     display: flex;
     gap: 10px;
+    flex: 1;
    
 }
 

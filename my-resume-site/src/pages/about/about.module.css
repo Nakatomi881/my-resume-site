@@ -1,4 +1,35 @@
 .container {
     display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.title {
+   
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.aboutme {
     
+    
+    font-size: 1rem;
+    max-width: 600px;
+    text-align: left;
+}
+
+.familyimage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
