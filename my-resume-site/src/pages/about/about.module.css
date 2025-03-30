@@ -20,16 +20,24 @@ p {
     text-align: left;
 }
 
-.aboutme {
-    
-    
+.aboutme  {
+    display: flex;
     font-size: 1rem;
-    max-width: 600px;
-    text-align: left;
+    max-width: 800px;
+    gap: 2rem;
+    margin: auto;
+    
+}
+
+.textblock { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .familyimage {
-    max-width: 100%;
+    max-width: 375px;
     height: auto;
     border-radius: 8px;
+    flex-shrink: 0;
 }
