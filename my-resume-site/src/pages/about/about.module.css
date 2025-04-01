@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
    
-    align-items: center;
-    flex-direction: column;
+   
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 50px;
@@ -27,7 +28,7 @@ p {
     max-width: 800px;
     gap: 2rem;
     margin: auto;
-    
+   
 }
 
 .textblock { 
@@ -40,5 +41,43 @@ p {
     max-width: 375px;
     height: auto;
     border-radius: 8px;
-    flex-shrink: 0;
+    
+}
+
+
+@media screen and (max-width:1280px) {
+    .logo {
+        font-size: 24px;
+    }
+    .links {
+        font-size: 16px;
+        gap: 15px;
+    }
+   
+}
+
+@media screen and (max-width:1024px) {
+    .social {
+        display: none;
+    }
+    .logo {
+      text-align: left;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+      font-size: 18px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .links{
+        justify-content: flex-end;
+    }
+
+    .link {
+      display: none;
+    }
 }
