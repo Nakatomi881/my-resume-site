@@ -4,23 +4,26 @@
   
   .heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 10vw, 4.4rem);
     margin-bottom: 2rem;
   }
   
   .container {
+    border: 7px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
   }
   
-  /* Adjust as needed */
+
   .left {
+    border: 2px solid gray;
     flex: 1;
   }
   
   .right {
+    border: 2px solid red;
     flex: 2;
   }
   
