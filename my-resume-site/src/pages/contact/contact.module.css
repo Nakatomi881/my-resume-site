@@ -1,3 +1,26 @@
-.container {
+.contactSection {
+    padding: 2rem;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .container {
     display: flex;
-}
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  /* Adjust as needed */
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 2;
+  }
+  
