@@ -18,17 +18,17 @@ const Contact: React.FC = () => {
 
         <div className={styles.right}>
           <form action="https://formspree.io/f/xovepana" method="POST">
-            <div className={styles.yourname}>
-              <label htmlFor="name">Your Name<br /></label>
+            <div className={styles.yourName}>
+              <label htmlFor="name">Your Name</label>
               <input placeholder="John McClane" id="name" required type="text" />
             </div>
             <div>
-              <label htmlFor="email">Your email<br /></label>
+              <label htmlFor="email">Your email</label>
               <input placeholder="Youremail@example.com" id="email" required type="text" />
             </div>
             <div>
-              <label htmlFor="textarea">Your message<br /></label>
-              <textarea id="textarea" name="message" required placeholder="Type your message here" rows={5} />
+              <label htmlFor="textarea">Your message</label>
+              <textarea id="textarea" name="message" required placeholder="Type your message here" rows={7} />
             </div>
             <div>
               <input type="submit" id="button" value="Send" />
