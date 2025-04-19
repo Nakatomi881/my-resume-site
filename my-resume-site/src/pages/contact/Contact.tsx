@@ -8,8 +8,11 @@ const Contact: React.FC = () => {
       
       <div className={styles.container}>
         <div className={styles.left}>
+          <div className={styles.name}>
+            <p>Ryan Palmer</p>
+          </div>
           <div className={styles.email}>
-            <p>ryandanpalmer@gmail.com</p>
+            <p>Ryandanpalmer@gmail.com</p>
           </div>
           <div className={styles.location}>
             <p>Utah</p>

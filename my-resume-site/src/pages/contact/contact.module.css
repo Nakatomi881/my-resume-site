@@ -1,7 +1,14 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 .contactSection {
     padding: 2rem;
+
   }
-  
   .heading {
     text-align: center;
     font-size: clamp(1.8rem, 10vw, 4.5rem);
@@ -9,42 +16,88 @@
   }
   
   .container {
-    border: 5px solid white;
+   
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    
+
   }
   
 
   .left {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid gray;
+   
+   width: 100%;
+   max-width: 400px;
+   padding: 1rem;
+  
+
+   
+  }
+
+  .name {
+    background-color: #660000;
+    padding: .5rem;
+    margin: 1rem;
+  }
+
+  .email {
+    background-color: #660000;
+    padding: .5rem;
+    margin: 1rem;
+  }
+
+  .location {
+    margin: 1rem;
+    padding: .5rem;
+    background-color: #660000;
     
   }
   
   .right {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    align-items: flex-start;
-   width: 100%;
-   max-width: 400px;
-   padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    overflow-x: hidden;
     
   }
+
+
   .right input,
   .right textarea {
-    display: block;
+    display: inline-block;
     width: 100%;
     font-size: 1rem;
     max-width: 100%;
-    margin: .25rem;
-    text-align: left;
+    margin: .0 0 .75rem 0;
     padding: .5rem;
+    box-sizing: border-box;
   }
 
-.yourName {
-    width: 100%;
-    max-width: 400px;
+.right label {
+  display: block;
+  text-align: left;
+}
 
+
+
+@media screen and (max-width:1280px) {
+ 
+ 
+}
+
+@media screen and (max-width:1024px) {
+ 
+ 
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:640px) {
+  .container {
+    flex-direction: column;
+  } 
 }
