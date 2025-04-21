@@ -34,3 +34,14 @@ ryandanpalmer-resume/
 │── public/              # Static assets
 │── index.html           # Main HTML file
 │── package.json         # Project metadata & dependencies
+
+
+notes 
+the container - main layout wrapper
+footer
+four rows
+first row
+my name and under that what I do
+2nd row links of my site
+3rd row contact info
+4th row social links
