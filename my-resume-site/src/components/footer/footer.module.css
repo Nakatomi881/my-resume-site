@@ -1,17 +1,28 @@
 * {
-    font-family: Roboto;
+    font-family: 'Roboto Mono', monospace;
    
 }
 
 ul {
     list-style-type: none;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
 }
+
+
 
 .container {
     display: flex;
     max-width: 1200px;
     width: 90%;
     margin: 0px auto;
+    align-items: flex-start;
+    gap: 3rem;
+    text-align: left;
+    align-items: flex-start;
     
 }
 
@@ -19,29 +30,39 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer_col1 {
-    flex: 2 1 0%;
-}
+
 
 .footer_col1_title {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-size: clamp(1rem, 2vw, 2rem);
 }
 
-.footer_col2 {
-    flex: 1 1 0%;
+.footer_col1_title,
+.heading {
+    line-height: 1.2;
 }
 
 .heading {
+   
     font-size: clamp(1rem, 2vw, 2rem);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-.footer_col3 {
-    flex: 1 1 0%;
+.footer_col1 {
+    flex: 2;
 }
 
+.footer_col2,
+.footer_col3,
 .footer_col4 {
-    flex: 1 1 0%;
+   
+    flex: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 }
