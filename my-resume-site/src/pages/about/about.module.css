@@ -44,9 +44,7 @@ p {
 
 
 @media screen and (max-width:1280px) {
-    .logo {
-        font-size: 24px;
-    }
+   
     .links {
         font-size: 16px;
         gap: 15px;
@@ -55,27 +53,16 @@ p {
 }
 
 @media screen and (max-width:1024px) {
-    .social {
-        display: none;
-    }
-    .logo {
-      text-align: left;
-    }
-   
+ 
 }
 
 @media screen and (max-width:768px) {
-    .logo {
-      font-size: 18px;
+   
+    .familyimage {
+        display: none;
     }
 }
 
 @media screen and (max-width:640px) {
-    .links{
-        justify-content: flex-end;
-    }
 
-    .link {
-      display: none;
-    }
 }
