@@ -8,6 +8,8 @@ const Projects: React.FC = () => {
         <div>
           <p>Coming soon</p>
         </div>
+
+        
       </div>
     );
 };
