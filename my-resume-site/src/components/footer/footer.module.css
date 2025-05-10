@@ -10,8 +10,13 @@ ul {
     flex-direction: column;
     padding: 0;
     
+    
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
 
 .container {
     display: grid; 
