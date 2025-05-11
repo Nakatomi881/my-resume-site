@@ -9,15 +9,24 @@ const Projects: React.FC = () => {
          
 
           <div className={styles.card}>
+            <div className={styles.header}>
+              <h2>Brinkerhoff Drywall</h2>
+            </div>
             <p>Brinkerhoff Drywall is a construction company based in Spanish Fork, UT, specializing in Wood Framing</p>
           </div>
 
           <div className={styles.card}>
+             <div className={styles.header}>
+              <h2>Palmer Software Consulting</h2>
+            </div>
             <p>Playwright testing for Palmer Software Consulting</p>
           </div>
 
           <div className={styles.card}>
-            <p>KofM technology helping with quick websites and easy testing </p>
+             <div className={styles.header}>
+              <h2>Kings of Monotony Technology</h2>
+            </div>
+            <p>KofM technology helping with quick websites and simple and effective testing </p>
           </div>
         </div>
 
