@@ -3,3 +3,11 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.grid {
+    --column-count: 3;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 
+        repeat(var(--column-count), 1fr);
+}
