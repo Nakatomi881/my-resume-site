@@ -11,3 +11,12 @@
     grid-template-columns: 
         repeat(var(--column-count), 1fr);
 }
+
+.card {
+    outline: 1px solid orange;
+
+}
+
+.header  h2 {
+    text-align: center;
+}

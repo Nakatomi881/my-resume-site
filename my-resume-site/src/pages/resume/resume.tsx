@@ -11,7 +11,7 @@ const Resume: React.FC = () => {
         
         <div className={styles.info}>
         <p>Sandy, Utah 84092</p>
-        <p>(801) 669-0006</p>
+        <p>Ryandanpalmer@gmail.com</p>
         <p>https://www.linkedin.com/in/ryan-palmer-softwareengineerstudent/</p>
         </div>
         <div className={styles.summary}>

@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
              <div className={styles.header}>
               <h2>Kings of Monotony Technology</h2>
             </div>
-            <p>KofM technology helping with quick websites and simple and effective testing </p>
+            <p>KofM technology My journey through software, testing, and business </p>
           </div>
         </div>
 
