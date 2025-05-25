@@ -12,6 +12,9 @@ const Projects: React.FC = () => {
             <div className={styles.header}>
               <h2>Brinkerhoff Drywall</h2>
             </div>
+            <div className={styles.logo}>
+              <img src='/public/brinkhofflogo.png' alt='Brinkerhoff Drywall logo'/>
+            </div>
             <p>Brinkerhoff Drywall is a construction company based in Spanish Fork, UT, specializing in Wood Framing</p>
           </div>
 
@@ -24,7 +27,7 @@ const Projects: React.FC = () => {
 
           <div className={styles.card}>
              <div className={styles.header}>
-              <h2>Kings of Monotony Technology</h2>
+              <h2>K of M Technology</h2>
             </div>
             <p>KofM technology My journey through software, testing, and business </p>
           </div>

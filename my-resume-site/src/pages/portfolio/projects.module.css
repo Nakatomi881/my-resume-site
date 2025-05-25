@@ -5,18 +5,43 @@
 }
 
 .grid {
-    --column-count: 3;
+    
     display: grid;
     gap: 1rem;
+    
     grid-template-columns: 
-        repeat(var(--column-count), 1fr);
-}
-
-.card {
-    outline: 1px solid orange;
-
+        repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .header  h2 {
-    text-align: center;
+    place-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    outline: 1px solid orange;
+    background-color: darkgreen;
+}
+
+.card p {
+    flex: 1;
+    padding: .25rem;
+}
+
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0.5rem;
+
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
 }
