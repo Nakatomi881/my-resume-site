@@ -19,16 +19,17 @@
 
 
 .card {
+    
     display: flex;
     flex-direction: column;
-
-    outline: 1px solid orange;
-    background-color: darkgreen;
+    border-radius: 15px;
+    background-color: #3B3B3B;
+    
 }
 
 .card p {
     flex: 1;
-    padding: .25rem;
+    padding: .35rem;
 }
 
 
@@ -45,3 +46,5 @@
     height: auto;
     object-fit: contain;
 }
+
+
