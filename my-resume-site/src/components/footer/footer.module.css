@@ -18,6 +18,10 @@ ul {
     color: white;
 }
 
+.link:hover {
+    color: #CD5C5C;
+}
+
 .container {
     display: grid; 
     max-width: 1200px;
