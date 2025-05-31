@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
         <div className={styles.right}>
           <form action="https://formspree.io/f/xovepana" method="POST">
             <div className={styles.yourName}>
-              <label htmlFor="name">Your Name</label>
+              <label htmlFor="name">Your name</label>
               <input placeholder="John McClane" id="name" required type="text" />
             </div>
             <div>

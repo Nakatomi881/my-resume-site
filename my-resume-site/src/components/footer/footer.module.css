@@ -10,8 +10,17 @@ ul {
     flex-direction: column;
     padding: 0;
     
+    
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #CD5C5C;
+}
 
 .container {
     display: grid; 
