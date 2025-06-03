@@ -6,7 +6,7 @@ const Resume: React.FC = () => {
       <div className={styles.container}>
         <div className={styles.heading}>
           <header>Ryan Palmer</header>
-          <p>Helping companies improve product quality for their users</p>
+          <p>Driving product quality improvements to enhance user experience and satisfaction.</p>
         </div> 
         
         <div className={styles.info}>
