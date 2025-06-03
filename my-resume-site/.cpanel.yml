@@ -1,0 +1,8 @@
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - cd /home/ryangvdo/RyanPalmResume
+    - /opt/cpanel/ea-nodejs18/bin/npm install
+    - /opt/cpanel/ea-nodejs18/bin/npm run build
+    - rm -rf /home/ryangvdo/public_html/*
+    - cp -r /home/ryangvdo/RyanPalmResume/dist/* /home/ryangvdo/public_html/
