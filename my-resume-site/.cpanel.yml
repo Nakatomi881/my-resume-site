@@ -1,9 +1,11 @@
 deployment:
   tasks:
-    - export NODE_ENV=production
-    - cd /home/ryangvdo/RyanPalmResume/my-resume-site
-    - /opt/cpanel/ea-nodejs18/bin/npm install
-    - /opt/cpanel/ea-nodejs18/bin/npm run build
-    - rm -rf /home/ryangvdo/public_html/*
-    - cp -r /home/ryangvdo/RyanPalmResume/my-resume-site/dist/* /home/ryangvdo/public_html/
-    - ls -la /home/ryangvdo/RyanPalmerResume/my-resume-site
+    - echo "=== DEPLOYMENT STARTED ===" > /home/ryangvdo/deploy.log
+    - date >> /home/ryangvdo/deploy.log
+    - cd /home/ryangvdo/RyanPalmResume/my-resume-site >> /home/ryangvdo/deploy.log 2>&1
+    - /opt/cpanel/ea-nodejs18/bin/npm install >> /home/ryangvdo/deploy.log 2>&1
+    - /opt/cpanel/ea-nodejs18/bin/npm run build >> /home/ryangvdo/deploy.log 2>&1
+    - ls -la dist >> /home/ryangvdo/deploy.log 2>&1
+    - rm -rf /home/ryangvdo/public_html/* >> /home/ryangvdo/deploy.log 2>&1
+    - cp -r dist/* /home/ryangvdo/public_html/ >> /home/ryangvdo/deploy.log 2>&1
+    - echo "=== DEPLOY COMPLETE ===" >> /home/ryangvdo/deploy.log
