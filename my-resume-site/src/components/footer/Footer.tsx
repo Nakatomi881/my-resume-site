@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
       </div>
       <div className={styles.footer_col4}>
         <div>
-          <h2 className={styles.heading}>social Links</h2>
+          <h2 className={styles.heading}>Social Links</h2>
           <ul className={styles.sociallinks}>
             <li>
               <a
