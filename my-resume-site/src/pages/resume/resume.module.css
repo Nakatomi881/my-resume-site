@@ -46,6 +46,7 @@ p {
     list-style: disc;
     padding-left: 20px;
     text-align: left;
+    word-wrap: normal;
 
 }
 
