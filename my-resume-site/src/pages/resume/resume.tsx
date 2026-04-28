@@ -16,7 +16,7 @@ const Resume: React.FC = () => {
         </div>
         <div className={styles.summary}>
           <h1>Professional Summary</h1>
-          <p>Dedicated Quality Engineer with quantifiable achievements in supporting product and engineering teams throughout the product life cycle. Expertise in support operations, bug identification, prioritization, and a blend of manual and automated testing techniques.</p>
+          <p>Results-oriented Software Engineer with extensive experience in the full product life cycle, moving from a foundation in quality engineering to building robust full-stack applications. Proven track record of automating complex workflows and integrating third-party systems to improve user experience and operational efficiency.</p>
         </div>
         <div className={styles.skills}>
           <h1>Technical Skills</h1>
